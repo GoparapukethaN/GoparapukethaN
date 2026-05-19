@@ -18,6 +18,16 @@ production-minded ML infrastructure projects.
 
 ## Selected Projects
 
+### AI Reliability Lab
+
+Production-style RAG reliability lab for MLOps runbooks.
+
+- FastAPI service with ingestion, retrieval, cited answers, evals, and metrics
+- Local deterministic behavior so the workflow runs without API keys
+- CLI demo path for ingesting docs, querying, running evals, and reviewing metrics
+- Case study and interview guide included in the repo
+- Repo: https://github.com/GoparapukethaN/ai-reliability-lab
+
 ### Applied AI Eval Lab
 
 Enterprise-style document intelligence and AI evaluation workspace.

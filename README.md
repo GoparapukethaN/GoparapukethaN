@@ -76,6 +76,10 @@ can look good in a notebook and still fail once it meets messy data, latency con
 retrieval misses, unclear evals, and release pressure. My projects are aimed at closing
 that gap with measurable workflows.
 
+## Writing
+
+- [What I Learned Building Evals Before Adding an LLM](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/notes/evals-before-llms.md)
+
 ## Tech I Work With
 
 Python, FastAPI, Docker, Kubernetes, SQL, scikit-learn, XGBoost, PyTorch basics, RAG,

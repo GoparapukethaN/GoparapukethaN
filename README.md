@@ -30,11 +30,12 @@ Production-style RAG reliability lab for MLOps runbooks.
 
 ### Applied AI Eval Lab
 
-Enterprise-style document intelligence and AI evaluation workspace.
+Document intelligence and AI evaluation workspace.
 
 - Next.js dashboard and FastAPI backend
 - Document ingestion, chunking, retrieval, citations, and evaluation metrics
 - Local deterministic retrieval so the demo can run without API keys
+- Verified with backend tests, frontend typecheck/build, and Docker Compose config
 - Live static demo: https://goparapukethan.github.io/applied-ai-eval-lab/
 - Repo: https://github.com/GoparapukethaN/applied-ai-eval-lab
 
@@ -45,19 +46,9 @@ deployment-oriented project structure.
 
 - Data ingestion and preprocessing
 - Model training and experiment tracking
-- FastAPI prediction service
-- Docker and Kubernetes deployment artifacts
+- FastAPI prediction service with smoke tests
+- Prometheus config, Dockerfile, Docker Compose, and Kubernetes deployment artifacts
 - Repo: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline
-
-### RAG Forge
-
-RAG benchmarking tool for comparing chunking, embedding, retrieval, and reranking
-configurations.
-
-- Retrieval experiment runner
-- Hit rate, MRR, context precision, and latency reporting
-- Designed to make RAG configuration choices measurable
-- Repo: https://github.com/GoparapukethaN/rag-forge
 
 ### MLGuard
 
@@ -66,8 +57,15 @@ Pre-deployment safety checks for ML models.
 - Data drift checks
 - Performance regression checks
 - Latency regression checks
-- CLI-style workflow for release gates
+- CLI-style workflow for release gates with local tests and example run
 - Repo: https://github.com/GoparapukethaN/mlguard
+
+### Open Source Contribution
+
+Focused documentation fix in Ray/RLlib.
+
+- Clarifies `set_extra_model_outputs` behavior against the current implementation
+- PR: https://github.com/ray-project/ray/pull/63524
 
 ## How I Think About AI Systems
 

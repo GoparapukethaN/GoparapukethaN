@@ -21,6 +21,9 @@ infrastructure projects.
 Portfolio proof ledger:
 https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md
 
+Portfolio project map:
+https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md
+
 ### AI Reliability Platform
 
 Local-first RAG reliability platform for MLOps runbooks and uploaded documents.

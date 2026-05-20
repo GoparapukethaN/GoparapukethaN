@@ -51,8 +51,10 @@ Retrieval benchmark runner for comparing RAG configuration choices.
 - Compares chunking, embedding, dense/BM25/hybrid retrieval, and optional reranking
 - Reports hit rate, MRR, context precision, latency, chunk count, and top configuration
 - Generates Markdown, JSON, and Pareto plot artifacts for follow-up analysis
+- Compares baseline/current benchmark reports with a regression gate for retrieval-quality changes
 - Keyless sample benchmark path with local verification
 - Sample benchmark: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-benchmark.md
+- Regression gate: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-regression-gate.md
 - Repo: https://github.com/GoparapukethaN/rag-forge
 
 ### MLOps End-to-End Pipeline

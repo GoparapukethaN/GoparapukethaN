@@ -42,7 +42,7 @@ Document intelligence and AI evaluation workspace.
 - Document ingestion, chunking, retrieval, citations, answer-fact coverage, and release-gate checks
 - Paired JSON/Markdown report artifacts with report list/detail endpoints
 - Local deterministic retrieval so the demo can run without API keys
-- Verified with 21 backend tests, frontend audit/typecheck/build/static export, Docker Compose config, and live demo QA
+- Verified with 21 backend tests, frontend audit/typecheck/build/static export, Docker smoke, and live demo QA
 - Live static demo: https://goparapukethan.github.io/applied-ai-eval-lab/
 - Case study: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/case-study.md
 - Verification: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/verification.md

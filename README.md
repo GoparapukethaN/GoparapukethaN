@@ -18,6 +18,9 @@ infrastructure projects.
 
 ## Selected Projects
 
+Portfolio proof ledger:
+https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md
+
 ### AI Reliability Platform
 
 Local-first RAG reliability platform for MLOps runbooks and uploaded documents.
@@ -42,7 +45,7 @@ Document intelligence and AI evaluation workspace.
 - Document ingestion, chunking, retrieval, citations, answer-fact coverage, and release-gate checks
 - Paired JSON/Markdown report artifacts with report list/detail endpoints
 - Local deterministic retrieval so the demo can run without API keys
-- Verified with 21 backend tests, frontend audit/typecheck/build/static export, Docker smoke, and live demo QA
+- Verified with 21 backend tests, frontend audit/typecheck/build/static export, static demo data checks, and Docker smoke
 - Live static demo: https://goparapukethan.github.io/applied-ai-eval-lab/
 - Case study: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/case-study.md
 - Verification: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/verification.md
@@ -118,13 +121,13 @@ Experimental model-routing CLI and developer-tooling playground.
 
 ### Open Source Contributions
 
-Focused fixes in AI infrastructure and evaluation tooling.
+Open upstream PRs proposing focused fixes in AI infrastructure and evaluation tooling.
 
-- Ray/RLlib: clarified `set_extra_model_outputs` behavior against the current implementation
-- Hugging Face LightEval: fixed an invalid `callable` type annotation in the parallelism helper
-- BentoML: added Python API docs for starting local HTTP/gRPC servers and creating clients
-- BentoML: added testing docs for mocking decorated API method bodies
-- BentoML: added `bentoml.Model` API reference coverage for export/import methods
+- Ray/RLlib: PR clarifies `set_extra_model_outputs` behavior against the current implementation
+- Hugging Face LightEval: PR fixes an invalid `callable` type annotation in the parallelism helper
+- BentoML: PR adds Python API docs for starting local HTTP/gRPC servers and creating clients
+- BentoML: PR adds testing docs for mocking decorated API method bodies
+- BentoML: PR adds `bentoml.Model` API reference coverage for export/import methods
 - Ray PR: https://github.com/ray-project/ray/pull/63524
 - LightEval PR: https://github.com/huggingface/lighteval/pull/1239
 - BentoML server API PR: https://github.com/bentoml/BentoML/pull/5616

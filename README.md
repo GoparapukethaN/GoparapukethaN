@@ -26,7 +26,9 @@ Local-first RAG reliability platform for MLOps runbooks and uploaded documents.
 - Provider interface with deterministic local mode plus optional OpenAI/Ollama adapters
 - Document upload path for Markdown, text, and PDF inputs
 - Eval reports with pass/fail, latency, source coverage, cost, citations, and refusal behavior
-- Local verification covers 25 Python tests, frontend typecheck/build, CLI smoke checks, and browser QA
+- Optional providers only receive citation credit for explicit evidence markers
+- Secret-extraction requests refuse even when retrieved evidence contains matching terms
+- Local verification covers 28 Python tests, frontend typecheck/build, CLI smoke checks, Compose validation, and browser QA
 - Demo walkthrough: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md
 - Verification: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/verification.md
 - Proof artifact: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/proof/verification-2026-05-20.md

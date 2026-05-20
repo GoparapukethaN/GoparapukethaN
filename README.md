@@ -77,6 +77,17 @@ Pre-deployment safety checks for ML models.
 - Local tests and sklearn example cover the simulated drift/regression failure path
 - Repo: https://github.com/GoparapukethaN/mlguard
 
+### StreamInfer
+
+Local inference-serving patterns in plain Python.
+
+- Adaptive batching for WebSocket and HTTP prediction paths
+- Backpressure controls for rate limits and queue depth
+- Model hot-swap endpoint with service metrics
+- JSON load-test reports for local latency and throughput checks
+- Verified with tests, Ruff, live smoke checks, and a small load-report run
+- Repo: https://github.com/GoparapukethaN/streaminfer
+
 ### Open Source Contribution
 
 Focused documentation fix in Ray/RLlib.

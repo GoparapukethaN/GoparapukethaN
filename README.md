@@ -51,12 +51,13 @@ Document intelligence and AI evaluation workspace.
 Retrieval benchmark runner for comparing RAG configuration choices.
 
 - Compares chunking, embedding, dense/BM25/hybrid retrieval, and optional reranking
-- Reports hit rate, MRR, context precision, latency, chunk count, and top configuration
+- Reports hit rate, MRR, context precision, cached query latency, chunk count, and top configuration
 - Generates Markdown, JSON, and Pareto plot artifacts for follow-up analysis
 - Compares baseline/current benchmark reports with a regression gate for retrieval-quality changes
-- Keyless sample benchmark path with local verification
+- Verified with 37 tests, Ruff, a keyless sample benchmark, and a sample regression gate
 - Sample benchmark: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-benchmark.md
 - Regression gate: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-regression-gate.md
+- Verification: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/rag-forge
 
 ### MLOps End-to-End Pipeline

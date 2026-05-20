@@ -79,13 +79,16 @@ Pre-deployment safety checks for ML models.
 
 ### StreamInfer
 
-Local inference-serving patterns in plain Python.
+Local inference serving and benchmark sweeps in plain Python.
 
 - Adaptive batching for WebSocket and HTTP prediction paths
 - Backpressure controls for rate limits and queue depth
 - Model hot-swap endpoint with service metrics
 - JSON load-test reports for local latency and throughput checks
-- Verified with tests, Ruff, live smoke checks, and a small load-report run
+- Deterministic LLM-style benchmark sweeps for batch size and timeout tradeoffs
+- JSON and Markdown benchmark reports, with a tracked sample sweep artifact
+- Verified with 32 tests, Ruff, live smoke checks, and a small load-report run
+- Sample sweep: https://github.com/GoparapukethaN/streaminfer/blob/main/docs/sample-inference-sweep.md
 - Repo: https://github.com/GoparapukethaN/streaminfer
 
 ### Prism CLI

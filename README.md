@@ -26,6 +26,8 @@ Reliability-focused RAG lab for MLOps runbooks.
 - Local deterministic behavior so the workflow runs without API keys
 - CLI demo path for ingesting docs, querying, running evals, and reviewing metrics
 - Case study and interview guide included in the repo
+- Demo walkthrough: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md
+- Verification: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/ai-reliability-lab
 
 ### Applied AI Eval Lab
@@ -37,6 +39,8 @@ Document intelligence and AI evaluation workspace.
 - Local deterministic retrieval so the demo can run without API keys
 - Verified with backend tests, frontend typecheck/build, and Docker Compose config
 - Live static demo: https://goparapukethan.github.io/applied-ai-eval-lab/
+- Case study: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/case-study.md
+- Verification: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/applied-ai-eval-lab
 
 ### MLOps End-to-End Pipeline

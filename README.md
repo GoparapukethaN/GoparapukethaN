@@ -109,10 +109,12 @@ Focused fixes in AI infrastructure and evaluation tooling.
 - Hugging Face LightEval: fixed an invalid `callable` type annotation in the parallelism helper
 - BentoML: added Python API docs for starting local HTTP/gRPC servers and creating clients
 - BentoML: added testing docs for mocking decorated API method bodies
+- BentoML: added `bentoml.Model` API reference coverage for export/import methods
 - Ray PR: https://github.com/ray-project/ray/pull/63524
 - LightEval PR: https://github.com/huggingface/lighteval/pull/1239
 - BentoML server API PR: https://github.com/bentoml/BentoML/pull/5616
 - BentoML testing PR: https://github.com/bentoml/BentoML/pull/5617
+- BentoML Model API PR: https://github.com/bentoml/BentoML/pull/5618
 
 ## How I Think About AI Systems
 

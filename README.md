@@ -56,7 +56,7 @@ Retrieval benchmark runner for comparing RAG configuration choices.
 - Reports hit rate, MRR, context precision, cached query latency, chunk count, and top configuration
 - Generates Markdown, JSON, and Pareto plot artifacts for follow-up analysis
 - Compares baseline/current benchmark reports with a regression gate for retrieval-quality changes
-- Verified with 37 tests, Ruff, a keyless sample benchmark, and a sample regression gate
+- Verified with 37 tests, Ruff, a keyless sample benchmark, and a repeatable sample regression gate
 - Sample benchmark: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-benchmark.md
 - Regression gate: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-regression-gate.md
 - Verification: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/verification.md

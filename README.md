@@ -12,6 +12,7 @@ Portfolio: https://goparapukethan.github.io/kethan-portfolio/ |
 Recruiter brief: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/recruiter-brief.md |
 Proof ledger: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md |
 Project map: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md |
+Enterprise RAG: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/enterprise-rag-reliability-platform.md |
 Verification note: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/no-key-verification.md
 
 ## Current Focus
@@ -24,9 +25,10 @@ Verification note: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/
 
 ## Selected Projects
 
-### AI Reliability Platform
+### Enterprise RAG Reliability Platform
 
-Local-first RAG reliability platform for MLOps runbooks and uploaded documents.
+Local-first enterprise-style RAG reliability platform for MLOps runbooks and uploaded
+documents.
 
 - FastAPI backend and Next.js dashboard for ingestion, query, evals, traces, and metrics
 - Provider interface with deterministic local mode plus optional OpenAI/Ollama adapters
@@ -35,6 +37,7 @@ Local-first RAG reliability platform for MLOps runbooks and uploaded documents.
 - Optional providers only receive citation credit for explicit evidence markers
 - Secret-extraction requests refuse even when retrieved evidence contains matching terms
 - Verified with 29 Python tests, frontend typecheck/build, CLI smoke checks, separate Docker Compose smoke, and rerunnable Playwright dashboard QA
+- Enterprise RAG map: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/enterprise-rag-reliability-platform.md
 - Demo walkthrough and dashboard screenshot: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md#dashboard-demo
 - Verification: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/verification.md
 - Proof artifact: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/proof/verification-2026-05-20.md
@@ -153,6 +156,7 @@ that gap with measurable workflows.
 ## Writing
 
 - [What I Learned Building Evals Before Adding an LLM](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/notes/evals-before-llms.md)
+- [Enterprise RAG Reliability Platform](https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/enterprise-rag-reliability-platform.md)
 - [Verifying AI Systems Without API Keys](https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/no-key-verification.md)
 - [AI Reliability Platform Architecture Video Script](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/architecture-video-script.md)
 - [Applied AI Eval Lab Case Study](https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/case-study.md)

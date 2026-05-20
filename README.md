@@ -152,6 +152,8 @@ that gap with measurable workflows.
 
 - [What I Learned Building Evals Before Adding an LLM](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/notes/evals-before-llms.md)
 - [AI Reliability Platform Architecture Video Script](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/architecture-video-script.md)
+- [Applied AI Eval Lab Case Study](https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/case-study.md)
+- [Applied AI Eval Lab Demo Script](https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/demo-script.md)
 - [RAG Forge Case Study](https://github.com/GoparapukethaN/rag-forge/blob/main/docs/case-study.md)
 - [StreamInfer Case Study](https://github.com/GoparapukethaN/streaminfer/blob/main/docs/case-study.md)
 - [MLGuard Case Study](https://github.com/GoparapukethaN/mlguard/blob/main/docs/case-study.md)

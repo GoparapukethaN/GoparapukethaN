@@ -44,6 +44,17 @@ Document intelligence and AI evaluation workspace.
 - Verification: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/applied-ai-eval-lab
 
+### RAG Forge
+
+Retrieval benchmark runner for comparing RAG configuration choices.
+
+- Compares chunking, embedding, dense/BM25/hybrid retrieval, and optional reranking
+- Reports hit rate, MRR, context precision, latency, chunk count, and top configuration
+- Generates Markdown, JSON, and Pareto plot artifacts for follow-up analysis
+- Keyless sample benchmark path with local verification
+- Sample benchmark: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-benchmark.md
+- Repo: https://github.com/GoparapukethaN/rag-forge
+
 ### MLOps End-to-End Pipeline
 
 Customer churn prediction pipeline with model training, API serving, monitoring, and

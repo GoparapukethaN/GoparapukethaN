@@ -95,6 +95,7 @@ Pre-deployment release-gate checks for ML models.
 - Composite action uploads both Markdown and JSON release-gate artifacts
 - Missing baseline fails fast unless drift-only mode is explicit
 - Local verification covers 26 tests, Ruff, JSON summary counts, CLI/action metadata artifact boundaries, and the sklearn example
+- Case study: https://github.com/GoparapukethaN/mlguard/blob/main/docs/case-study.md
 - Verification: https://github.com/GoparapukethaN/mlguard/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/mlguard
 

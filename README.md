@@ -113,6 +113,7 @@ deployment-oriented project structure.
 - FastAPI prediction service with request validation and unavailable-model checks
 - Prometheus config, Dockerfile, Docker Compose, Kubernetes deployment artifacts, and Docker smoke verification
 - Local verification covers 15 tests, strict lint/format checks, Compose config, and Docker health/prediction smoke
+- Case study: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline/blob/main/docs/case-study.md
 - Verification: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline
 

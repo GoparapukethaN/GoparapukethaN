@@ -9,6 +9,7 @@ now I am going deeper into AI/ML engineering through RAG systems, LLM evaluation
 infrastructure projects.
 
 Portfolio: https://goparapukethan.github.io/kethan-portfolio/ |
+Recruiter brief: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/recruiter-brief.md |
 Proof ledger: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md |
 Project map: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md
 

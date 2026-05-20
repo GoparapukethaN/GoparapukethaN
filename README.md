@@ -1,12 +1,12 @@
 # Kethan Goparapu
 
-MLOps engineer focused on applied AI systems, model reliability, evaluation, and production
-deployment.
+MLOps engineer focused on applied AI systems, model reliability, evaluation, and deployment
+workflows.
 
 I like building the parts around models that make them useful in the real world: data
 pipelines, APIs, monitoring, evals, release gates, and clear failure visibility. Right
-now I am going deeper into AI/ML engineering through RAG systems, LLM evaluation, and
-production-minded ML infrastructure projects.
+now I am going deeper into AI/ML engineering through RAG systems, LLM evaluation, and ML
+infrastructure projects.
 
 ## Current Focus
 
@@ -20,7 +20,7 @@ production-minded ML infrastructure projects.
 
 ### AI Reliability Lab
 
-Production-style RAG reliability lab for MLOps runbooks.
+Reliability-focused RAG lab for MLOps runbooks.
 
 - FastAPI service with ingestion, retrieval, cited answers, evals, and metrics
 - Local deterministic behavior so the workflow runs without API keys

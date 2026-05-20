@@ -18,14 +18,15 @@ infrastructure projects.
 
 ## Selected Projects
 
-### AI Reliability Lab
+### AI Reliability Platform
 
-Reliability-focused RAG lab for MLOps runbooks.
+Local-first RAG reliability platform for MLOps runbooks and uploaded documents.
 
-- FastAPI service with ingestion, retrieval, cited answers, evals, and metrics
-- Local deterministic behavior so the workflow runs without API keys
-- CLI demo path for ingesting docs, querying, running evals, and reviewing metrics
-- Case study and interview guide included in the repo
+- FastAPI backend and Next.js dashboard for ingestion, query, evals, traces, and metrics
+- Provider interface with deterministic local mode plus optional OpenAI/Ollama adapters
+- Document upload path for Markdown, text, and PDF inputs
+- Eval reports, query traces, citations, refusal behavior, and provider comparison
+- Local verification covers backend tests, frontend typecheck/build, and CLI smoke checks
 - Demo walkthrough: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/demo.md
 - Verification: https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/ai-reliability-lab

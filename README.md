@@ -62,35 +62,9 @@ Retrieval benchmark runner for comparing RAG configuration choices.
 - Verified with 37 tests, Ruff, a keyless sample benchmark, and a repeatable sample regression gate
 - Sample benchmark: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-benchmark.md
 - Regression gate: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/sample-regression-gate.md
+- Case study: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/case-study.md
 - Verification: https://github.com/GoparapukethaN/rag-forge/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/rag-forge
-
-### MLOps End-to-End Pipeline
-
-Customer churn prediction pipeline with model training, API serving, monitoring, and
-deployment-oriented project structure.
-
-- Data ingestion and preprocessing
-- Model training and experiment tracking
-- FastAPI prediction service with request validation and unavailable-model checks
-- Prometheus config, Dockerfile, Docker Compose, Kubernetes deployment artifacts, and Docker smoke verification
-- Local verification covers 15 tests, strict lint/format checks, Compose config, and Docker health/prediction smoke
-- Verification: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline/blob/main/docs/verification.md
-- Repo: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline
-
-### MLGuard
-
-Pre-deployment safety checks for ML models.
-
-- Data drift checks
-- Performance regression checks
-- Latency regression checks
-- CLI-style release gate with Markdown and JSON deployment reports
-- Composite action uploads both Markdown and JSON release-gate artifacts
-- Missing baseline fails fast unless drift-only mode is explicit
-- Local verification covers 26 tests, Ruff, JSON summary counts, CLI/action metadata artifact boundaries, and the sklearn example
-- Verification: https://github.com/GoparapukethaN/mlguard/blob/main/docs/verification.md
-- Repo: https://github.com/GoparapukethaN/mlguard
 
 ### StreamInfer
 
@@ -108,6 +82,33 @@ Local inference serving and benchmark sweeps in plain Python.
 - Sample gate: https://github.com/GoparapukethaN/streaminfer/blob/main/docs/sample-inference-gate.md
 - Verification: https://github.com/GoparapukethaN/streaminfer/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/streaminfer
+
+### MLGuard
+
+Pre-deployment release-gate checks for ML models.
+
+- Data drift checks
+- Performance regression checks
+- Latency regression checks
+- CLI-style release gate with Markdown and JSON deployment reports
+- Composite action uploads both Markdown and JSON release-gate artifacts
+- Missing baseline fails fast unless drift-only mode is explicit
+- Local verification covers 26 tests, Ruff, JSON summary counts, CLI/action metadata artifact boundaries, and the sklearn example
+- Verification: https://github.com/GoparapukethaN/mlguard/blob/main/docs/verification.md
+- Repo: https://github.com/GoparapukethaN/mlguard
+
+### MLOps End-to-End Pipeline
+
+Customer churn prediction pipeline with model training, API serving, monitoring, and
+deployment-oriented project structure.
+
+- Data ingestion and preprocessing
+- Model training and experiment tracking
+- FastAPI prediction service with request validation and unavailable-model checks
+- Prometheus config, Dockerfile, Docker Compose, Kubernetes deployment artifacts, and Docker smoke verification
+- Local verification covers 15 tests, strict lint/format checks, Compose config, and Docker health/prediction smoke
+- Verification: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline/blob/main/docs/verification.md
+- Repo: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline
 
 ### Prism CLI
 
@@ -144,6 +145,7 @@ that gap with measurable workflows.
 ## Writing
 
 - [What I Learned Building Evals Before Adding an LLM](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/notes/evals-before-llms.md)
+- [RAG Forge Case Study](https://github.com/GoparapukethaN/rag-forge/blob/main/docs/case-study.md)
 
 ## Tech I Work With
 

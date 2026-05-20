@@ -77,6 +77,7 @@ Pre-deployment safety checks for ML models.
 - Performance regression checks
 - Latency regression checks
 - CLI-style release gate with Markdown and JSON deployment reports
+- Composite action uploads both Markdown and JSON release-gate artifacts
 - Local tests and sklearn example cover the simulated drift/regression failure path
 - Repo: https://github.com/GoparapukethaN/mlguard
 

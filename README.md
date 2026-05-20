@@ -8,6 +8,10 @@ pipelines, APIs, monitoring, evals, release gates, and clear failure visibility.
 now I am going deeper into AI/ML engineering through RAG systems, LLM evaluation, and ML
 infrastructure projects.
 
+Portfolio: https://goparapukethan.github.io/kethan-portfolio/ |
+Proof ledger: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md |
+Project map: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md
+
 ## Current Focus
 
 - Reliable RAG and document intelligence systems
@@ -17,12 +21,6 @@ infrastructure projects.
 - MLOps patterns: experiment tracking, monitoring, rollback, and reproducibility
 
 ## Selected Projects
-
-Portfolio proof ledger:
-https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md
-
-Portfolio project map:
-https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md
 
 ### AI Reliability Platform
 

@@ -80,7 +80,9 @@ Pre-deployment safety checks for ML models.
 - Latency regression checks
 - CLI-style release gate with Markdown and JSON deployment reports
 - Composite action uploads both Markdown and JSON release-gate artifacts
-- Local tests and sklearn example cover the simulated drift/regression failure path
+- Missing baseline fails fast unless drift-only mode is explicit
+- Local verification covers 24 tests, Ruff, JSON summary counts, and the sklearn example
+- Verification: https://github.com/GoparapukethaN/mlguard/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/mlguard
 
 ### StreamInfer

@@ -88,6 +88,16 @@ Local inference-serving patterns in plain Python.
 - Verified with tests, Ruff, live smoke checks, and a small load-report run
 - Repo: https://github.com/GoparapukethaN/streaminfer
 
+### Prism CLI
+
+Experimental model-routing CLI and developer-tooling playground.
+
+- Explores provider routing, local tool execution, cost tracking, project memory, and CLI workflows
+- Local verification passes Ruff, 5,817 tests, and CLI smoke checks
+- Public status doc tracks non-gating mypy, Bandit, format, and live-provider validation gaps
+- Showcase status: https://github.com/GoparapukethaN/prism-cli/blob/main/SHOWCASE_STATUS.md
+- Repo: https://github.com/GoparapukethaN/prism-cli
+
 ### Open Source Contributions
 
 Focused fixes in AI infrastructure and evaluation tooling.

@@ -78,6 +78,7 @@ Local inference serving and benchmark sweeps in plain Python.
 - JSON and Markdown benchmark reports, with a tracked sample sweep artifact
 - Benchmark gate for throughput, p95 latency, error, and recommendation-change checks
 - Verified with 40 tests, Ruff, live smoke checks, Docker smoke, sample benchmark gate, and a small load-report run
+- Case study: https://github.com/GoparapukethaN/streaminfer/blob/main/docs/case-study.md
 - Sample sweep: https://github.com/GoparapukethaN/streaminfer/blob/main/docs/sample-inference-sweep.md
 - Sample gate: https://github.com/GoparapukethaN/streaminfer/blob/main/docs/sample-inference-gate.md
 - Verification: https://github.com/GoparapukethaN/streaminfer/blob/main/docs/verification.md

@@ -88,12 +88,14 @@ Local inference-serving patterns in plain Python.
 - Verified with tests, Ruff, live smoke checks, and a small load-report run
 - Repo: https://github.com/GoparapukethaN/streaminfer
 
-### Open Source Contribution
+### Open Source Contributions
 
-Focused documentation fix in Ray/RLlib.
+Focused fixes in AI infrastructure and evaluation tooling.
 
-- Clarifies `set_extra_model_outputs` behavior against the current implementation
-- PR: https://github.com/ray-project/ray/pull/63524
+- Ray/RLlib: clarified `set_extra_model_outputs` behavior against the current implementation
+- Hugging Face LightEval: fixed an invalid `callable` type annotation in the parallelism helper
+- Ray PR: https://github.com/ray-project/ray/pull/63524
+- LightEval PR: https://github.com/huggingface/lighteval/pull/1239
 
 ## How I Think About AI Systems
 

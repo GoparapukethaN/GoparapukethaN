@@ -11,7 +11,8 @@ infrastructure projects.
 Portfolio: https://goparapukethan.github.io/kethan-portfolio/ |
 Recruiter brief: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/recruiter-brief.md |
 Proof ledger: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/proof-ledger.md |
-Project map: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md
+Project map: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/project-map.md |
+Verification note: https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/no-key-verification.md
 
 ## Current Focus
 
@@ -47,7 +48,7 @@ Document intelligence and AI evaluation workspace.
 - Document ingestion, chunking, retrieval, citations, answer-fact coverage, and release-gate checks
 - Paired JSON/Markdown report artifacts with report list/detail endpoints
 - Local deterministic retrieval so the demo can run without API keys
-- Verified with 21 backend tests, frontend audit/typecheck/build/static export, static demo data checks, tracked static demo browser QA, and Docker smoke
+- Verified with 21 backend tests, frontend audit/typecheck/build/static export, static demo data checks, tracked static demo browser QA, and separate Docker smoke
 - Live static demo: https://goparapukethan.github.io/applied-ai-eval-lab/
 - Demo screenshot: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/assets/static-demo-query-eval.png
 - Case study: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/case-study.md
@@ -110,8 +111,9 @@ deployment-oriented project structure.
 - Data ingestion and preprocessing
 - Model training and experiment tracking
 - FastAPI prediction service with request validation and unavailable-model checks
-- Prometheus config, Dockerfile, Docker Compose, Kubernetes deployment artifacts, and Docker smoke verification
-- Local verification covers 15 tests, strict lint/format checks, Compose config, and Docker health/prediction smoke
+- Prometheus config, Dockerfile, Docker Compose, Kubernetes deployment artifacts, and optional Docker smoke verification
+- Local verification covers 15 tests, strict lint/format checks, training import, and Prometheus parsing without requiring Docker
+- Optional Docker/Compose checks cover container config, health, and prediction paths
 - Case study: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline/blob/main/docs/case-study.md
 - Verification: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline/blob/main/docs/verification.md
 - Repo: https://github.com/GoparapukethaN/mlops-end-to-end-pipeline
@@ -151,6 +153,7 @@ that gap with measurable workflows.
 ## Writing
 
 - [What I Learned Building Evals Before Adding an LLM](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/notes/evals-before-llms.md)
+- [Verifying AI Systems Without API Keys](https://github.com/GoparapukethaN/kethan-portfolio/blob/main/docs/no-key-verification.md)
 - [AI Reliability Platform Architecture Video Script](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/architecture-video-script.md)
 - [Applied AI Eval Lab Case Study](https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/case-study.md)
 - [Applied AI Eval Lab Demo Script](https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/demo-script.md)

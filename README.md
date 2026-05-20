@@ -149,6 +149,8 @@ that gap with measurable workflows.
 
 - [What I Learned Building Evals Before Adding an LLM](https://github.com/GoparapukethaN/ai-reliability-lab/blob/main/docs/notes/evals-before-llms.md)
 - [RAG Forge Case Study](https://github.com/GoparapukethaN/rag-forge/blob/main/docs/case-study.md)
+- [StreamInfer Case Study](https://github.com/GoparapukethaN/streaminfer/blob/main/docs/case-study.md)
+- [MLGuard Case Study](https://github.com/GoparapukethaN/mlguard/blob/main/docs/case-study.md)
 
 ## Tech I Work With
 

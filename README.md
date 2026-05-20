@@ -37,8 +37,9 @@ Document intelligence and AI evaluation workspace.
 
 - Next.js dashboard and FastAPI backend
 - Document ingestion, chunking, retrieval, citations, evaluation metrics, and release-gate checks
+- Paired JSON/Markdown report artifacts with report list/detail endpoints
 - Local deterministic retrieval so the demo can run without API keys
-- Verified with backend tests, frontend typecheck/build/static export, Docker Compose config, and live demo QA
+- Verified with 19 backend tests, frontend typecheck/build/static export, Docker Compose config, and live demo QA
 - Live static demo: https://goparapukethan.github.io/applied-ai-eval-lab/
 - Case study: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/case-study.md
 - Verification: https://github.com/GoparapukethaN/applied-ai-eval-lab/blob/main/docs/verification.md

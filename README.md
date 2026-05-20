@@ -73,7 +73,8 @@ Pre-deployment safety checks for ML models.
 - Data drift checks
 - Performance regression checks
 - Latency regression checks
-- CLI-style workflow for release gates with local tests and example run
+- CLI-style release gate with Markdown and JSON deployment reports
+- Local tests and sklearn example cover the simulated drift/regression failure path
 - Repo: https://github.com/GoparapukethaN/mlguard
 
 ### Open Source Contribution

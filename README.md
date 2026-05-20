@@ -155,6 +155,7 @@ that gap with measurable workflows.
 - [RAG Forge Case Study](https://github.com/GoparapukethaN/rag-forge/blob/main/docs/case-study.md)
 - [StreamInfer Case Study](https://github.com/GoparapukethaN/streaminfer/blob/main/docs/case-study.md)
 - [MLGuard Case Study](https://github.com/GoparapukethaN/mlguard/blob/main/docs/case-study.md)
+- [MLOps Pipeline Case Study](https://github.com/GoparapukethaN/mlops-end-to-end-pipeline/blob/main/docs/case-study.md)
 
 ## Tech I Work With
 
